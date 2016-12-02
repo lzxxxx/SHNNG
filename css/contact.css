@@ -1,0 +1,21 @@
+#wrap{
+	text-align: center;
+	margin-bottom: 100px;
+}
+#nav li:nth-child(6){
+	background: #cfdb00;
+}
+#wrap #main .logo{
+	border-bottom: none;
+	/*padding-bottom: 0;*/
+}
+#wrap .contact{
+	/*width: 1024px;*/
+	height: 541px;
+	background: url(../img/contact_bg.jpg) no-repeat center;
+}
+#wrap .contact p{
+	font-size: 17px;
+	line-height: 30px;
+	color: #595757;
+}

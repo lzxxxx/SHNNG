@@ -1,0 +1,134 @@
+
+#wrap{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	position: relative;
+}
+#logo_wrap{
+	width: 100%;
+	background: #f5f5f5;
+}
+.logo{
+	width: 1025;
+	border-bottom: none;
+	background: #f5f5f5;
+	padding-top: 130px;
+}
+#nav li:nth-child(4){
+	background: #cfdb00;
+}
+.logo_bottom{
+	background: none;
+}
+#main{
+	width: 100%;
+	height: 100%;
+}
+#main>div{
+	width: 100%;
+	min-width: 1025px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#main div div{
+	position: absolute;
+	top: 31%;
+	left: 20%;
+	z-index: 10;
+	width: 30%;
+	height: 46%;
+	max-width: 540px;
+	opacity: 0;
+	transition: all 5s;
+}
+#main div:first-child div img{
+	width: 30%;
+}
+#main div:nth-child(3) div{
+	position: absolute;
+	top: 19%;
+	left: 42%;
+	z-index: 10;
+	width: 30%;
+	max-width: 540px;
+	height: 46%;
+}
+#main div:nth-child(4) div{
+	position: absolute;
+	top: 19%;
+	left: 42%;
+	z-index: 10;
+	max-width: 540px;
+	width: 30%;
+	height: 46%;
+}
+#main div div h2{
+	display: inline-block;
+	padding: 5px;
+	height: 40px;
+	font-size: 23px;
+	color: #616161;
+	/*text-align: center;*/
+	letter-spacing: 1px;
+	background: #cfdb00;
+	line-height: 40px;
+}
+#main div div p{
+	color: #616161;
+	padding: 10px 0 30px 0;
+	font-size: 13px;
+	line-height: 17px;
+}
+#main>div>img{
+	/*height: 640px;*/
+	position: absolute;
+	z-index: 0;
+	bottom: 0px;
+	right: 0px;
+	margin-top: 640px;
+}
+#main div .building2{
+	/*height: 640px;*/
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	margin: 0 59px 0 0;
+}
+#main div .building3{
+	/*height: 640px;*/
+	position: absolute;
+	z-index: 0;
+	bottom: 0px;
+	left: 0px;
+	/*margin: 0 59px 0 0;*/
+}
+#main div .building4{
+	/*height: 640px;*/
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+	margin: 0 0 0 62px;
+}
+#main div .building5{
+	/*height: 640px;*/
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	margin: 0 71px 0 0;
+}
+#wrap>div:last-child{
+	width: 1025px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.re_top{
+	position: absolute;
+	bottom: 0px;
+	left: 48%;
+}

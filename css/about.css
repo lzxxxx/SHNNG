@@ -1,0 +1,28 @@
+#wrap{
+	text-align: center;
+	padding-bottom: 150px;
+}
+#wrap .logo{
+	border-bottom: none;
+}
+#nav li:nth-child(2){
+	background: #cfdb00;
+}
+#wrap div:first-child{
+	width: 1025px;
+	margin: 0 auto;
+}
+#wrap #main{
+	width: 1025px;
+	margin: 0 auto;
+}
+#wrap #main p{
+	width: 739px;
+	text-align: left;
+	font-size: 13px;
+	line-height: 30px;
+	padding-bottom: 50px;
+	color: #8d8c8c;
+	margin: 0 auto;
+	word-spacing: 2px;
+}
