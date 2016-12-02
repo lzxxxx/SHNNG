@@ -1,2 +1,2 @@
 # lzx
-The first repository
+The static page of SHNNG
